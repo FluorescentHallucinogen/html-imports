@@ -756,8 +756,8 @@
   })));
 
   // exports
-  scope.useNative = useNative;
-  scope.whenReady = whenReady;
-  scope.importForElement = importForElement;
+  scope['useNative'] = useNative;
+  scope['whenReady'] = whenReady;
+  scope['importForElement'] = importForElement;
 
-})(window.HTMLImports = (window.HTMLImports || {}));
+})(window['HTMLImports'] = (window['HTMLImports'] || {}));
